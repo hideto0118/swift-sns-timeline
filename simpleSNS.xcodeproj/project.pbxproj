@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		C36A7C851EAD1A0B00E91EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A7C841EAD1A0B00E91EA8 /* AppDelegate.swift */; };
 		C36A7C871EAD1A0B00E91EA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A7C861EAD1A0B00E91EA8 /* ViewController.swift */; };
-		C36A7C8A1EAD1A0B00E91EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36A7C881EAD1A0B00E91EA8 /* Main.storyboard */; };
+		C36A7C8A1EAD1A0B00E91EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36A7C881EAD1A0B00E91EA8 /* Main.storyboard */; settings = {ASSET_TAGS = ("table ", ); }; };
 		C36A7C8C1EAD1A0B00E91EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36A7C8B1EAD1A0B00E91EA8 /* Assets.xcassets */; };
 		C36A7C8F1EAD1A0B00E91EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36A7C8D1EAD1A0B00E91EA8 /* LaunchScreen.storyboard */; };
 		C36A7C9A1EAD1A0C00E91EA8 /* simpleSNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A7C991EAD1A0C00E91EA8 /* simpleSNSTests.swift */; };
 		C36A7CA51EAD1A0C00E91EA8 /* simpleSNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A7CA41EAD1A0C00E91EA8 /* simpleSNSUITests.swift */; };
+		C36A7CB31EAD1CD900E91EA8 /* church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CB21EAD1CD900E91EA8 /* church.jpg */; };
+		C36A7CB61EAD206B00E91EA8 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CB41EAD206B00E91EA8 /* bubble.png */; };
+		C36A7CB71EAD206B00E91EA8 /* heart02.png in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CB51EAD206B00E91EA8 /* heart02.png */; };
+		C36A7CB91EAD236400E91EA8 /* loveball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CB81EAD236400E91EA8 /* loveball.jpg */; };
+		C36A7CBB1EAD26BB00E91EA8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A7CBA1EAD26BB00E91EA8 /* FeedCell.swift */; };
+		C36A7CC01EAD2D1B00E91EA8 /* timeline01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CBC1EAD2D1B00E91EA8 /* timeline01.jpg */; };
+		C36A7CC11EAD2D1B00E91EA8 /* timeline02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CBD1EAD2D1B00E91EA8 /* timeline02.jpg */; };
+		C36A7CC21EAD2D1B00E91EA8 /* timeline03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CBE1EAD2D1B00E91EA8 /* timeline03.jpg */; };
+		C36A7CC31EAD2D1B00E91EA8 /* timeline04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CBF1EAD2D1B00E91EA8 /* timeline04.jpg */; };
+		C36A7CC51EAD37F600E91EA8 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = C36A7CC41EAD37F600E91EA8 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		C36A7CA01EAD1A0C00E91EA8 /* simpleSNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleSNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36A7CA41EAD1A0C00E91EA8 /* simpleSNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleSNSUITests.swift; sourceTree = "<group>"; };
 		C36A7CA61EAD1A0C00E91EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36A7CB21EAD1CD900E91EA8 /* church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = church.jpg; sourceTree = "<group>"; };
+		C36A7CB41EAD206B00E91EA8 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		C36A7CB51EAD206B00E91EA8 /* heart02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart02.png; sourceTree = "<group>"; };
+		C36A7CB81EAD236400E91EA8 /* loveball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loveball.jpg; sourceTree = "<group>"; };
+		C36A7CBA1EAD26BB00E91EA8 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		C36A7CBC1EAD2D1B00E91EA8 /* timeline01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeline01.jpg; sourceTree = "<group>"; };
+		C36A7CBD1EAD2D1B00E91EA8 /* timeline02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeline02.jpg; sourceTree = "<group>"; };
+		C36A7CBE1EAD2D1B00E91EA8 /* timeline03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeline03.jpg; sourceTree = "<group>"; };
+		C36A7CBF1EAD2D1B00E91EA8 /* timeline04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeline04.jpg; sourceTree = "<group>"; };
+		C36A7CC41EAD37F600E91EA8 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,19 @@
 		C36A7C831EAD1A0B00E91EA8 /* simpleSNS */ = {
 			isa = PBXGroup;
 			children = (
+				C36A7CC41EAD37F600E91EA8 /* heart.png */,
+				C36A7CBC1EAD2D1B00E91EA8 /* timeline01.jpg */,
+				C36A7CBD1EAD2D1B00E91EA8 /* timeline02.jpg */,
+				C36A7CBE1EAD2D1B00E91EA8 /* timeline03.jpg */,
+				C36A7CBF1EAD2D1B00E91EA8 /* timeline04.jpg */,
+				C36A7CB81EAD236400E91EA8 /* loveball.jpg */,
+				C36A7CB41EAD206B00E91EA8 /* bubble.png */,
+				C36A7CB51EAD206B00E91EA8 /* heart02.png */,
+				C36A7CB21EAD1CD900E91EA8 /* church.jpg */,
 				C36A7C841EAD1A0B00E91EA8 /* AppDelegate.swift */,
 				C36A7C861EAD1A0B00E91EA8 /* ViewController.swift */,
 				C36A7C881EAD1A0B00E91EA8 /* Main.storyboard */,
+				C36A7CBA1EAD26BB00E91EA8 /* FeedCell.swift */,
 				C36A7C8B1EAD1A0B00E91EA8 /* Assets.xcassets */,
 				C36A7C8D1EAD1A0B00E91EA8 /* LaunchScreen.storyboard */,
 				C36A7C901EAD1A0B00E91EA8 /* Info.plist */,
@@ -187,6 +217,9 @@
 		C36A7C791EAD1A0B00E91EA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"table ",
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "康乗秀人";
@@ -234,6 +267,15 @@
 			files = (
 				C36A7C8F1EAD1A0B00E91EA8 /* LaunchScreen.storyboard in Resources */,
 				C36A7C8C1EAD1A0B00E91EA8 /* Assets.xcassets in Resources */,
+				C36A7CC31EAD2D1B00E91EA8 /* timeline04.jpg in Resources */,
+				C36A7CB61EAD206B00E91EA8 /* bubble.png in Resources */,
+				C36A7CC51EAD37F600E91EA8 /* heart.png in Resources */,
+				C36A7CC21EAD2D1B00E91EA8 /* timeline03.jpg in Resources */,
+				C36A7CB31EAD1CD900E91EA8 /* church.jpg in Resources */,
+				C36A7CB71EAD206B00E91EA8 /* heart02.png in Resources */,
+				C36A7CC01EAD2D1B00E91EA8 /* timeline01.jpg in Resources */,
+				C36A7CC11EAD2D1B00E91EA8 /* timeline02.jpg in Resources */,
+				C36A7CB91EAD236400E91EA8 /* loveball.jpg in Resources */,
 				C36A7C8A1EAD1A0B00E91EA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +303,7 @@
 			files = (
 				C36A7C871EAD1A0B00E91EA8 /* ViewController.swift in Sources */,
 				C36A7C851EAD1A0B00E91EA8 /* AppDelegate.swift in Sources */,
+				C36A7CBB1EAD26BB00E91EA8 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
